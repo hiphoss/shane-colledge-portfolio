@@ -39,3 +39,11 @@ Enhancements will focus on:
 ## Contact  
 
 GitHub: https://github.com/hiphoss  
+
+---
+
+## Code Review
+
+My code review of the Travlr Getaways full-stack application can be viewed here:
+
+[Watch Code Review Video](https://youtu.be/-LIaatrDvtc)
