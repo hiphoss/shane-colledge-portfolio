@@ -65,3 +65,18 @@ This enhancement demonstrates better software design practices by improving main
 
 - **Project Code:**
 https://github.com/hiphoss/CS-465
+
+---
+
+## Enhancement Two: Algorithms and Data Structures
+
+This enhancement focuses on improving how data is retrieved and processed in the Travlr Getaways application.
+
+The original implementation returned all trip data at once without considering performance or scalability. To improve this, I added pagination and sorting to the trip retrieval route. This allows the application to return smaller sets of data and organize results more efficiently.
+
+This enhancement demonstrates algorithmic thinking by improving how data is handled and reducing unnecessary processing. It also makes the application more scalable and better suited for handling larger datasets.
+
+**Key Improvements:**
+- Added pagination using limit and offset
+- Implemented sorting for consistent data ordering
+- Improved efficiency of data retrieval
