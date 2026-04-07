@@ -80,3 +80,19 @@ This enhancement demonstrates algorithmic thinking by improving how data is hand
 - Added pagination using limit and offset
 - Implemented sorting for consistent data ordering
 - Improved efficiency of data retrieval
+
+---
+
+## Enhancement Three: Databases
+
+This enhancement focuses on improving the database structure and data integrity in the Travlr Getaways application.
+
+The original implementation used basic schema definitions without much validation. To improve this, I enhanced the Trip model by adding validation rules, trimming input values, default values, and timestamps. These changes ensure that data stored in the database is more consistent and reliable.
+
+This enhancement demonstrates database design skills by improving how data is validated and managed. It also strengthens the overall reliability of the application by preventing incorrect or poorly formatted data from being stored.
+
+**Key Improvements:**
+- Added schema validation rules
+- Improved data consistency
+- Added timestamps for tracking changes
+- Strengthened data integrity
