@@ -34,7 +34,7 @@ Enhancements will focus on:
 - Database optimization and indexing  
 - Security hardening and validation controls
 
-- - **Project Code:**
+- **Project Code:**
 https://github.com/hiphoss/CS-465
 
 ---
