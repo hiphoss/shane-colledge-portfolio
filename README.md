@@ -134,8 +134,7 @@ function errorHandler(err, req, res, next) {
 
   res.render('error');
 }
-
-module.exports = errorHandler;
+  
 ---
 
 ## Enhancement Two: Algorithms and Data Structures
