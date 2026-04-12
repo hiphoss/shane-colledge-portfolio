@@ -32,7 +32,10 @@ Enhancements will focus on:
 - Architectural refinement  
 - Algorithmic efficiency improvements  
 - Database optimization and indexing  
-- Security hardening and validation controls  
+- Security hardening and validation controls
+
+- - **Project Code:**
+https://github.com/hiphoss/CS-465
 
 ---
 
@@ -62,9 +65,6 @@ This enhancement demonstrates better software design practices by improving main
 - Centralized error handling middleware
 - Consistent API error responses
 - Improved maintainability and structure
-
-- **Project Code:**
-https://github.com/hiphoss/CS-465
 
 ---
 
