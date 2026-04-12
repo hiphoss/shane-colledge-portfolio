@@ -1,4 +1,3 @@
-[app.js](https://github.com/user-attachments/files/26661554/app.js)
 # Shane Colledge  
 ## Computer Science Portfolio  
 
