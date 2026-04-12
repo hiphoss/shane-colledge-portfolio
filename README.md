@@ -1,3 +1,4 @@
+[app.js](https://github.com/user-attachments/files/26661554/app.js)
 # Shane Colledge  
 ## Computer Science Portfolio  
 
@@ -65,6 +66,46 @@ This enhancement demonstrates better software design practices by improving main
 - Centralized error handling middleware
 - Consistent API error responses
 - Improved maintainability and structure
+  
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+var hbs = require('hbs');
+var errorHandler = require('./errorHandler');
+
+var indexRouter = require('./app_server/routes/index');
+
+
+var app = express();
+
+// view engine setup
+app.set('views', path.join(__dirname, 'app_server', 'views'));
+app.set('view engine', 'hbs');
+
+hbs.registerPartials(
+  path.join(__dirname, 'app_server', 'views', 'layouts')
+);
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/', indexRouter);
+
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
+// error handler
+app.use(errorHandler);
+
+module.exports = app;
 
 ---
 
