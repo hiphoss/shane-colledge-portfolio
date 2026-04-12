@@ -1,3 +1,4 @@
+[app.js](https://github.com/user-attachments/files/26661027/app.js)
 # Shane Colledge  
 ## Computer Science Portfolio  
 
@@ -66,6 +67,75 @@ This enhancement demonstrates better software design practices by improving main
 - Consistent API error responses
 - Improved maintainability and structure
 
+**app.js**
+
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+var hbs = require('hbs');
+var errorHandler = require('./errorHandler');
+
+var indexRouter = require('./app_server/routes/index');
+
+
+var app = express();
+
+// view engine setup
+app.set('views', path.join(__dirname, 'app_server', 'views'));
+app.set('view engine', 'hbs');
+
+hbs.registerPartials(
+  path.join(__dirname, 'app_server', 'views', 'layouts')
+);
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/', indexRouter);
+
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
+// error handler
+app.use(errorHandler);
+
+module.exports = app;
+
+**errorHandler.js**
+
+// Centralized error handler for the application
+function errorHandler(err, req, res, next) {
+  
+  // Log the error to the console for debugging
+  console.error(err);
+
+  // Set the HTTP status code
+  res.status(err.status || 500);
+
+  // If the request is for an API route, return a JSON response
+  if (req.originalUrl.startsWith('/api')) {
+    return res.json({
+      message: err.message || "Internal Server Error",
+      status: err.status || 500
+    });
+  }
+
+  // Otherwise render the default error page
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  res.render('error');
+}
+
+module.exports = errorHandler;
 ---
 
 ## Enhancement Two: Algorithms and Data Structures
