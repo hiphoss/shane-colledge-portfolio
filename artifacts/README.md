@@ -1,4 +1,4 @@
-[Self Assessment.docx](https://github.com/user-attachments/files/26660839/Self.Assessment.docx)
-[Narrative Milestone 2.docx](https://github.com/user-attachments/files/26660838/Narrative.Milestone.2.docx)
-[Narrative Milestone 3.docx](https://github.com/user-attachments/files/26660837/Narrative.Milestone.3.docx)
-[Narrative Milestone 4.docx](https://github.com/user-attachments/files/26660836/Narrative.Milestone.4.docx)
+- [Self Assessment.docx](https://github.com/user-attachments/files/26660839/Self.Assessment.docx)
+- [Narrative Milestone 2.docx](https://github.com/user-attachments/files/26660838/Narrative.Milestone.2.docx)
+- [Narrative Milestone 3.docx](https://github.com/user-attachments/files/26660837/Narrative.Milestone.3.docx)
+- [Narrative Milestone 4.docx](https://github.com/user-attachments/files/26660836/Narrative.Milestone.4.docx)
