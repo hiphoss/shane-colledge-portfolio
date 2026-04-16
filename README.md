@@ -108,3 +108,13 @@ This enhancement demonstrates database design skills by improving how data is va
 - [View Narrative](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts)
 
 - [View Code](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/project-code)
+
+---
+
+## Professional Self-Assessment
+
+My professional self-assessment summarizes my development as a computer science student and outlines the skills I have gained in software design, algorithms, databases, and security.
+
+- [View Professional Self-Assessment](https://github.com/hiphoss/shane-colledge-portfolio/blob/main/artifacts/SelfAssessment.docx)
+
+---
