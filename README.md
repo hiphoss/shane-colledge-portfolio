@@ -68,7 +68,7 @@ This enhancement demonstrates better software design practices by improving main
 
 - [View Narrative](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts)
 
-[View Code](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/project-code)
+- [View Code](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/project-code)
 
 ---
 
@@ -85,6 +85,10 @@ This enhancement demonstrates algorithmic thinking by improving how data is hand
 - Implemented sorting for consistent data ordering
 - Improved efficiency of data retrieval
 
+- [View Narrative](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts)
+
+- [View Code](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/project-code)
+
 ---
 
 ## Enhancement Three: Databases
@@ -100,3 +104,7 @@ This enhancement demonstrates database design skills by improving how data is va
 - Improved data consistency
 - Added timestamps for tracking changes
 - Strengthened data integrity
+
+- [View Narrative](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts)
+
+- [View Code](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/project-code)
