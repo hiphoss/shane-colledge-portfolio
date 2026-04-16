@@ -66,7 +66,7 @@ This enhancement demonstrates better software design practices by improving main
 - Consistent API error responses
 - Improved maintainability and structure
 
-- [View Narrative](link-to-your-doc)
+- [View Narrative]([link-to-your-doc](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts))
 
 [View Code](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/project-code)
 
