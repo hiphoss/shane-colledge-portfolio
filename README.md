@@ -47,12 +47,6 @@ https://github.com/hiphoss/CS-465
 
 ---
 
-## Contact  
-
-GitHub: https://github.com/hiphoss  
-
----
-
 ## Code Review
 
 My code review of the Travlr Getaways full-stack application can be viewed here:
@@ -116,5 +110,11 @@ This enhancement demonstrates database design skills by improving how data is va
 - [View Narrative](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts)
 
 - [View Code](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/project-code)
+
+---
+
+## Contact  
+
+GitHub: https://github.com/hiphoss  
 
 ---
