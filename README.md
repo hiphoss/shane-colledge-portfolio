@@ -11,6 +11,14 @@ Welcome to my professional ePortfolio. This portfolio demonstrates my growth and
 
 ---
 
+## Professional Self-Assessment
+
+My professional self-assessment summarizes my development as a computer science student and outlines the skills I have gained in software design, algorithms, databases, and security.
+
+- [View Professional Self-Assessment](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts)
+
+---
+
 ## Capstone Overview  
 
 This portfolio is part of my CS 499 Computer Science Capstone. It includes:
@@ -108,13 +116,5 @@ This enhancement demonstrates database design skills by improving how data is va
 - [View Narrative](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts)
 
 - [View Code](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/project-code)
-
----
-
-## Professional Self-Assessment
-
-My professional self-assessment summarizes my development as a computer science student and outlines the skills I have gained in software design, algorithms, databases, and security.
-
-- [View Professional Self-Assessment](https://github.com/hiphoss/shane-colledge-portfolio/tree/main/artifacts)
 
 ---
