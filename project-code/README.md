@@ -52,3 +52,24 @@ app.use(function(req, res, next) {
 app.use(errorHandler);
 
 module.exports = app;
+
+
+function errorHandler(err, req, res, next) {
+  console.error(err);
+
+  res.status(err.status || 500);
+
+  if (req.originalUrl.startsWith('/api')) {
+    return res.json({
+      message: err.message || "Internal Server Error",
+      status: err.status || 500
+    });
+  }
+
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  res.render('error');
+}
+
+module.exports = errorHandler;
