@@ -149,3 +149,45 @@ const tripSchema = new mongoose.Schema(
 );
 
 mongoose.model('Trip', tripSchema);
+
+function errorHandler(err, req, res, next) {
+  console.error(err);
+
+  res.status(err.status || 500);
+
+  if (req.originalUrl.startsWith('/api')) {
+    return res.json({
+      message: err.message || "Internal Server Error",
+      status: err.status || 500
+    });
+  }
+
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  res.render('error');
+}
+
+module.exports = errorHandler;
+
+### errorHandler.js
+
+function errorHandler(err, req, res, next) {
+  console.error(err);
+
+  res.status(err.status || 500);
+
+  if (req.originalUrl.startsWith('/api')) {
+    return res.json({
+      message: err.message || "Internal Server Error",
+      status: err.status || 500
+    });
+  }
+
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  res.render('error');
+}
+
+module.exports = errorHandler;
