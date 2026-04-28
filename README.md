@@ -11,6 +11,15 @@ Welcome to my professional ePortfolio. This portfolio demonstrates my growth and
 
 ---
 
+## QA / Testing Notes
+- Improved backend reliability through centralized Express error handling.
+- Added structured API error responses for easier debugging.
+- Implemented pagination and sorting to reduce unnecessary data retrieval.
+- Strengthened MongoDB schema validation to improve data quality.
+- Tested backend behavior for invalid data, missing fields, and route-level errors.
+
+---
+
 ## Professional Self-Assessment
 
 My professional self-assessment summarizes my development as a computer science student and outlines the skills I have gained in software design, algorithms, databases, and security.
